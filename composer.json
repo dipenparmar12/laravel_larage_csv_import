@@ -2,6 +2,7 @@
   "name": "dipenparmar12/importcsv",
   "description": "Import millions of record in few seconds by using mysqlimport utility.",
   "license": "MIT",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Dipen parmar",
