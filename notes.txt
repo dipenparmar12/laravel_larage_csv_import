@@ -1,0 +1,17 @@
+config = [
+  FIELDS_TERMINATED=',' ,
+  LINES_TERMINATED='\n',
+  csv_directory ='database/csv_import',
+  TRUNCATE = false,
+]
+
+csv:load --path="database/csv_import" --truncate
+csv:load --file="database/csv_import/users.csv" --table=users
+
+FIELDS_TERMINATED=','
+LINES_TERMINATED='\n'
+
+
+
+--FIELDS_TERMINATED=','
+--LINES_TERMINATED='\n'
