@@ -74,8 +74,8 @@ class LargeCsvLoad extends Command
 
         $DB_HOST = env('DB_HOST');
         $DB_USERNAME = env('DB_USERNAME');
-        $DB_PASSWORD = env('DB_PASSWORD');
-        $DB_DATABASE = env('DB_DATABASE', NULL);
+        $DB_PASSWORD = env('DB_PASSWORD', NULL);
+        $DB_DATABASE = env('DB_DATABASE');
 
         foreach ($csv_files as $file_path) {
             $table = basename($file_path, ".$input_file_extension");
